@@ -4,7 +4,7 @@ function getMinMax(str) {
     .filter(elem => !isNaN(elem))
     .sort((a, b) => a-b);
 
-  return obj = {
+  return {
     min: array[0],
     max: array[array.length-1],
   }
